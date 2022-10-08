@@ -1,4 +1,10 @@
-String Formatting
+# Operadores ternario
+```
+es_bonito = True
+estado = "Es bonito" if es_bonito else "No es bonito"
+```
+
+# String Formatting
 Python usa un estilo de formato de cadenas parecido a C para crear nuevas cadenas de texto. El operador "%" es usado para dar este formato y fijar las variables encerradas en una "tupla" (una lista inmutable la cual no puede ser reasignada) juntos con una cadena con formato, que contiene el texto normal junto con "argumentos especificados", como los símbolos especiales "%s" y "%d".
 
 Digamos que tienes una variable llamada "nombre" con tu nombre de usuario en ella y querrás darle un saludo al usuario.
