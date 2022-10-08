@@ -1,4 +1,4 @@
-# Funciones Lambda
+# Funciones Lambda
 lambda argumentos: manipular(argumentos)
 ```
 suma = lambda x, y: x + y
