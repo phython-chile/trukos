@@ -1,3 +1,12 @@
+# Funciones Lambda
+lambda argumentos: manipular(argumentos)
+```
+suma = lambda x, y: x + y
+print(suma(3, 5))
+```
+
+# Salida: 8
+
 # Operadores ternario
 ```
 es_bonito = True
