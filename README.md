@@ -1,3 +1,11 @@
+# Python correr script en background
+
+$ nohup python3 load_partner.py > output.log &
+$ tail -f output.log
+$ ps ax | grep load_partner.py
+$ kill PID
+
+
 # Funciones Lambda
 lambda argumentos: manipular(argumentos)
 ```
